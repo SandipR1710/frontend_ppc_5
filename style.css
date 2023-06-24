@@ -15,18 +15,14 @@ body {
         place-items: center;
     }
 }
-
-.image {
-    background-image: url('images/image-product-desktop.jpg');
-}
-
 .image {
     width: 286px;
-    height: 215px;
+    height: 200px;
     background-repeat: no-repeat;
     background-position:center;
     background-size:cover;
     border-radius: 7px 7px 0 0;
+    background-image: url('images/image-product-mobile.jpg')
 }
 
 @media (min-width:600px) {
@@ -37,6 +33,7 @@ body {
         background-position: center;
         background-size: cover;
         border-radius: 7px 0 0 7px;
+        background-image: url('images/image-product-desktop.jpg');
     }
 }
 
